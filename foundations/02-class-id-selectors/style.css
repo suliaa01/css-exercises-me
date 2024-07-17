@@ -4,3 +4,8 @@
     background-color: rgb(255, 192, 203);
     font-family: verdana, 'DejaVu Sans', sans-serif;
 }
+
+#div-1 {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
