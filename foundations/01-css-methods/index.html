@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Internal CSS Below starting with style and ending with style-->
     <style>
       p {
         background-color: green;
@@ -15,8 +16,11 @@
     </style>
   </head>
   <body>
+    <!-- External CSS is appled to div element -->
     <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <!-- Internal CSS is applied to p element -->
+    <p> I would like to be styled with the internal method, please.</p>
+    <!-- Inline CSS is applied to button element -->
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
   </body>
 </html>
