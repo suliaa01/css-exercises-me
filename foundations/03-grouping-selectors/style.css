@@ -2,3 +2,10 @@
     background-color: black;
     color: #FFFFFF;
 }
+.no-me {
+    background-color: rgb(255, 255, 0);
+}
+.choose-me.no-me {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
