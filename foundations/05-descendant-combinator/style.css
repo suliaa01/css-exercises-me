@@ -1,0 +1,15 @@
+/* Class selector Example */
+.container .text {
+  background-color: yellow;
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Type selector Example */
+div p {
+  background-color: yellow;
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  text-align: center;
+}
