@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* Added */
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -23,4 +26,40 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* Added - removes bullets from a list */
+ul {
+  list-style-type: none;
+  /* Removing margins and paddings is also useful since browsers usually add that by default. To remove these, add margin: 0; and padding: 0; */
+  margin: 0;
+  padding: 0;
+}
+/* Added - removes underline from a link */
+a {
+  text-decoration: none;
+  color: black;
+}
+/* Added */
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header,
+.footer {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Addded - sets background color for the footer */
+.footer {
+  background-color: #eeeeee;
+}
+.left-links,
+.right-links {
+  display: flex;
+  gap: 10px;
 }
